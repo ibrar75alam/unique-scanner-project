@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.scanner-result {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  word-break: break-all;
+}
+
+.error {
+  margin-top: 20px;
+}
+
+.qr-container {
+  margin: 25px auto;
+  padding: 20px;
+  background: white;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+.scanner-code {
+  max-width: 600px;
+  margin: 15px auto;
+  word-break: break-all;
+  font-size: 16px;
+}
