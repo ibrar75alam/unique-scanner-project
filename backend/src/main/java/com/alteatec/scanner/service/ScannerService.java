@@ -23,6 +23,8 @@ public class ScannerService {
 
         do {
             uniqueCode = UUID.randomUUID().toString();
+
+            System.out.println("Unique Code is: " + uniqueCode);
         } while (scannerRepository.existsByScannerCode(uniqueCode));
 
         LocalDateTime createdAt = LocalDateTime.now();
